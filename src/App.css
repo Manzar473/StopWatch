@@ -36,3 +36,99 @@
     transform: rotate(360deg);
   }
 }
+
+
+.MainContain{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+
+}
+.stopWatchcontain{
+  width: 363px;
+  /* height: 188px; */
+  background-color: rgb(18, 128, 179);
+  border-radius: 10px;
+  padding-bottom: 30px;
+  margin: 30px 0 30px 0;
+}
+.timer{
+  width: 70%;
+  color: white;
+  margin: 35px auto;
+  border: 3px solid white;
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+.btn{
+  width: 60px;
+  height: 33px;
+  outline: none;
+  border-radius: 4px;
+  margin: 0 5px;
+font-weight: bolder;
+ color: white;
+ background-color: white;
+ border: 2px solid white;
+ 
+}
+.resetBtn{
+  background-color: black;
+}
+.lapBtn{
+  background-color: orange;
+}
+.stopBtn{
+  background-color: red;
+}
+.StartBtn{
+  background-color: green;
+}
+.btnclear{
+  background-color: rgb(63, 62, 62);
+  width: 48px;
+  height: 26px;
+  margin-top: 0px;
+  font-size: 12px;
+  border: none;
+}
+.Lap-time{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
+  color: white;
+}
+.LapListTitle{
+  font-size: 22px;
+  color:rgb(5, 40, 56);
+  font-style: italic;
+  font-weight: bold;
+}
+.lapsDivMain{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+  
+  background-color: white;
+  width: 80%;
+  margin:20px auto ;
+  
+  padding: 6px 10px;
+  border-radius: 8px;
+ 
+}
+.AllLaps{
+  display: flex;
+ 
+}
+.MainContain{
+  background-color: rgb(9, 9, 26);
+  min-height: 100vh;
+  
+}
+.outFlow{
+  max-height: 46vh;
+  overflow-y: scroll;
+}
